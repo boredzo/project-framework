@@ -27,7 +27,7 @@
 @synthesize objectsByIdentifier;
 
 + projectWithContentsOfURL:(NSURL *)URL {
-	return [[[self alloc] init] autorelease];
+	return [[[self alloc] initWithContentsOfURL:URL] autorelease];
 }
 - initWithContentsOfURL:(NSURL *)URL {
 	if ((self = [super init])) {
@@ -73,7 +73,7 @@
 	if ([value isKindOfClass:[XCObject class]]) {
 		//Do nothing.
 	} else if ([self isObjectIdentifier:value]) {
-		return [self objectWithIdentifier:value];
+		value = [self objectWithIdentifier:value];
 	} else if ([value isKindOfClass:[NSArray class]]) {
 		NSMutableArray *array = [NSMutableArray arrayWithCapacity:[value count]];
 		for (id object in value) {

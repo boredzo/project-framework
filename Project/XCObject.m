@@ -14,7 +14,7 @@
 
 @interface XCObject ()
 @property(copy) NSString *identifier;
-@property(retain) XCProject *project;
+@property(assign) XCProject *project;
 @end
 
 @interface XCBlankObject : XCObject
@@ -86,6 +86,8 @@
 		for (unsigned i = 0; i < numProperties; ++i) {
 			[names addObject:[NSString stringWithUTF8String:property_getName(properties[i])]];
 		}
+
+		free(properties);
 		result = names;
 	}
 
@@ -112,7 +114,10 @@
 }
 
 - (id) forwardingTargetForSelector:(SEL)selector {
-	return [self resolveSelf];
+	id object = [self resolveSelf];
+	if (!object)
+		object = [super forwardingTargetForSelector:selector];
+	return object;
 }
 
 - (NSString *) description {
