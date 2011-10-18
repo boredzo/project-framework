@@ -9,7 +9,15 @@
 /* Begin PBXBuildFile section */
 		31D38F58144DDFF400B96A96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D38F57144DDFF400B96A96 /* Cocoa.framework */; };
 		31D38F62144DDFF400B96A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31D38F60144DDFF400B96A96 /* InfoPlist.strings */; };
-		31D38F66144DDFF400B96A96 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F65144DDFF400B96A96 /* Project.m */; };
+		31D38F6C144DE00C00B96A96 /* Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F64144DDFF400B96A96 /* Project.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D38F6F144DE06500B96A96 /* XCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F6D144DE06500B96A96 /* XCObject.h */; };
+		31D38F70144DE06500B96A96 /* XCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F6E144DE06500B96A96 /* XCObject.m */; };
+		31D38F73144DE0A800B96A96 /* XCProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F71144DE0A800B96A96 /* XCProject.h */; };
+		31D38F74144DE0A800B96A96 /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F72144DE0A800B96A96 /* XCProject.m */; };
+		31D38F78144DE8BA00B96A96 /* PBXProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F76144DE8BA00B96A96 /* PBXProject.h */; };
+		31D38F79144DE8BA00B96A96 /* PBXProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F77144DE8BA00B96A96 /* PBXProject.m */; };
+		31D38F7C144DF1AF00B96A96 /* PBXNativeTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F7A144DF1AF00B96A96 /* PBXNativeTarget.h */; };
+		31D38F7D144DF1AF00B96A96 /* PBXNativeTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F7B144DF1AF00B96A96 /* PBXNativeTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,11 +26,18 @@
 		31D38F5A144DDFF400B96A96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		31D38F5B144DDFF400B96A96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		31D38F5C144DDFF400B96A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		31D38F5F144DDFF400B96A96 /* Project-Info.plist */ = {isa = PBXFileReference; path = "Project-Info.plist"; sourceTree = "<group>"; };
+		31D38F5F144DDFF400B96A96 /* Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project-Info.plist"; sourceTree = "<group>"; };
 		31D38F61144DDFF400B96A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		31D38F63144DDFF400B96A96 /* Project-Prefix.pch */ = {isa = PBXFileReference; path = "Project-Prefix.pch"; sourceTree = "<group>"; };
-		31D38F64144DDFF400B96A96 /* Project.h */ = {isa = PBXFileReference; path = Project.h; sourceTree = "<group>"; };
-		31D38F65144DDFF400B96A96 /* Project.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		31D38F63144DDFF400B96A96 /* Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-Prefix.pch"; sourceTree = "<group>"; };
+		31D38F64144DDFF400B96A96 /* Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		31D38F6D144DE06500B96A96 /* XCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCObject.h; sourceTree = "<group>"; };
+		31D38F6E144DE06500B96A96 /* XCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCObject.m; sourceTree = "<group>"; };
+		31D38F71144DE0A800B96A96 /* XCProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCProject.h; sourceTree = "<group>"; };
+		31D38F72144DE0A800B96A96 /* XCProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCProject.m; sourceTree = "<group>"; };
+		31D38F76144DE8BA00B96A96 /* PBXProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXProject.h; sourceTree = "<group>"; };
+		31D38F77144DE8BA00B96A96 /* PBXProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXProject.m; sourceTree = "<group>"; };
+		31D38F7A144DF1AF00B96A96 /* PBXNativeTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBXNativeTarget.h; sourceTree = "<group>"; };
+		31D38F7B144DF1AF00B96A96 /* PBXNativeTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBXNativeTarget.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				31D38F64144DDFF400B96A96 /* Project.h */,
-				31D38F65144DDFF400B96A96 /* Project.m */,
+				31D38F6D144DE06500B96A96 /* XCObject.h */,
+				31D38F6E144DE06500B96A96 /* XCObject.m */,
+				31D38F71144DE0A800B96A96 /* XCProject.h */,
+				31D38F72144DE0A800B96A96 /* XCProject.m */,
+				31D38F75144DE5FE00B96A96 /* Xcode class reimplementations */,
 				31D38F5E144DDFF400B96A96 /* Supporting Files */,
 			);
 			path = Project;
@@ -93,6 +112,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		31D38F75144DE5FE00B96A96 /* Xcode class reimplementations */ = {
+			isa = PBXGroup;
+			children = (
+				31D38F76144DE8BA00B96A96 /* PBXProject.h */,
+				31D38F77144DE8BA00B96A96 /* PBXProject.m */,
+				31D38F7A144DF1AF00B96A96 /* PBXNativeTarget.h */,
+				31D38F7B144DF1AF00B96A96 /* PBXNativeTarget.m */,
+			);
+			name = "Xcode class reimplementations";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -100,6 +130,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D38F6C144DE00C00B96A96 /* Project.h in Headers */,
+				31D38F6F144DE06500B96A96 /* XCObject.h in Headers */,
+				31D38F73144DE0A800B96A96 /* XCProject.h in Headers */,
+				31D38F78144DE8BA00B96A96 /* PBXProject.h in Headers */,
+				31D38F7C144DF1AF00B96A96 /* PBXNativeTarget.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Peter Hosey";
 			};
 			buildConfigurationList = 31D38F4D144DDFF400B96A96 /* Build configuration list for PBXProject "Project" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -165,7 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D38F66144DDFF400B96A96 /* Project.m in Sources */,
+				31D38F70144DE06500B96A96 /* XCObject.m in Sources */,
+				31D38F74144DE0A800B96A96 /* XCProject.m in Sources */,
+				31D38F79144DE8BA00B96A96 /* PBXProject.m in Sources */,
+				31D38F7D144DF1AF00B96A96 /* PBXNativeTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
