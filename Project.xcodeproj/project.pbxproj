@@ -10,7 +10,7 @@
 		31D38F58144DDFF400B96A96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D38F57144DDFF400B96A96 /* Cocoa.framework */; };
 		31D38F62144DDFF400B96A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31D38F60144DDFF400B96A96 /* InfoPlist.strings */; };
 		31D38F6C144DE00C00B96A96 /* Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F64144DDFF400B96A96 /* Project.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31D38F6F144DE06500B96A96 /* XCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F6D144DE06500B96A96 /* XCObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D38F6F144DE06500B96A96 /* XCObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F6D144DE06500B96A96 /* XCObject.h */; settings = {ATTRIBUTES = (); }; };
 		31D38F70144DE06500B96A96 /* XCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F6E144DE06500B96A96 /* XCObject.m */; };
 		31D38F73144DE0A800B96A96 /* XCProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D38F71144DE0A800B96A96 /* XCProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31D38F74144DE0A800B96A96 /* XCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D38F72144DE0A800B96A96 /* XCProject.m */; };

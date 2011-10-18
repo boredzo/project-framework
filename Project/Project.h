@@ -8,5 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Project/XCObject.h>
 #import <Project/XCProject.h>
