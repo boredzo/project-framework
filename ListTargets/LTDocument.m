@@ -28,7 +28,10 @@
 	self.project = [XCProject projectWithContentsOfURL:absoluteURL];
 	PBXProject *projectObject = [project projectObject];
 	self.targets = [projectObject targets];
+
+	//This log statement to be replaced with a table view when the framework code works.
 	NSLog(@"Targets: %@", self.targets);
+
 	return YES;
 }
 
