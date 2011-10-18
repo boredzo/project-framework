@@ -11,6 +11,7 @@
 #import <objc/runtime.h>
 
 #import "XCProject.h"
+#import "XCProject+NonPublicMethods.h"
 
 @interface XCObject ()
 @property(copy) NSString *identifier;

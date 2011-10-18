@@ -7,6 +7,7 @@
 //
 
 #import "XCProject.h"
+#import "XCProject+NonPublicMethods.h"
 
 #import "XCObject.h"
 

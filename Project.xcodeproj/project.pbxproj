@@ -27,6 +27,7 @@
 		31D38FAB144DF2CE00B96A96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31D38FA9144DF2CE00B96A96 /* MainMenu.xib */; };
 		31D38FB0144DF37D00B96A96 /* Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D38F54144DDFF400B96A96 /* Project.framework */; };
 		31D38FB1144DF38900B96A96 /* Project.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31D38F54144DDFF400B96A96 /* Project.framework */; };
+		31D38FB5144E0A6900B96A96 /* XCProject+NonPublicMethods.h in Resources */ = {isa = PBXBuildFile; fileRef = 31D38FB4144E0A6900B96A96 /* XCProject+NonPublicMethods.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		31D38FA4144DF2CE00B96A96 /* LTDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTDocument.m; sourceTree = "<group>"; };
 		31D38FA7144DF2CE00B96A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTDocument.xib; sourceTree = "<group>"; };
 		31D38FAA144DF2CE00B96A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31D38FB4144E0A6900B96A96 /* XCProject+NonPublicMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCProject+NonPublicMethods.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				31D38F6D144DE06500B96A96 /* XCObject.h */,
 				31D38F6E144DE06500B96A96 /* XCObject.m */,
 				31D38F71144DE0A800B96A96 /* XCProject.h */,
+				31D38FB4144E0A6900B96A96 /* XCProject+NonPublicMethods.h */,
 				31D38F72144DE0A800B96A96 /* XCProject.m */,
 				31D38F75144DE5FE00B96A96 /* Xcode class reimplementations */,
 				31D38F5E144DDFF400B96A96 /* Supporting Files */,
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D38F62144DDFF400B96A96 /* InfoPlist.strings in Resources */,
+				31D38FB5144E0A6900B96A96 /* XCProject+NonPublicMethods.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
